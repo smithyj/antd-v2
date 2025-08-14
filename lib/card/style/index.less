@@ -28,7 +28,7 @@
     border-bottom: @border-width-base @border-style-base @border-color-split;
     padding: 0 @card-padding-base;
     border-radius: @border-radius-sm @border-radius-sm 0 0;
-    .clearfix;
+    .clearfix();
     margin-bottom: -1px; // Fix card grid overflow bug: https://gw.alipayobjects.com/zos/rmsportal/XonYxBikwpgbqIQBeuhk.png
     display: flex;
 
@@ -54,7 +54,7 @@
 
   &-body {
     padding: @card-padding-base;
-    .clearfix;
+    .clearfix();
   }
 
   &-contain-grid &-body {

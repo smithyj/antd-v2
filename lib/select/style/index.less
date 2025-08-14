@@ -80,13 +80,13 @@
     transition: all .3s @ease-in-out;
 
     &:hover {
-      .hover;
+      .hover();
     }
 
     .@{select-prefix-cls}-focused &,
     &:focus,
     &:active {
-      .active;
+      .active();
     }
 
     &__clear {
@@ -278,7 +278,7 @@
     min-height: @input-height-base;
     cursor: text;
     padding-bottom: 3px;
-    .clearfix;
+    .clearfix();
 
     .@{select-prefix-cls}-search--inline {
       width: auto;
